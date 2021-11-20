@@ -38,7 +38,5 @@ services:
       - "./healthcheck.js:/usr/src/api/healthcheck.js"
 
 volumes:
-  xbs-caddy-config:
-  xbs-caddy-data:
   xbs-db-backups:
   xbs-db-data:
